@@ -1,0 +1,47 @@
+body {
+    background-color: #fff; /* 背景を白色に */
+    color: #000; /* 文字色を黒色に */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    background-color: #ddd; /* 背景を明るいグレーに */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input, button {
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+input {
+    border: none;
+    border-radius: 5px;
+    background-color: #f5f5f5; /* 入力欄の背景を明るいグレーに */
+    color: #000; /* 入力欄の文字色を黒色に */
+}
+
+button {
+    background-color: #ccc; /* ボタンの背景を明るいグレーに */
+    color: #000; /* ボタンの文字色を黒色に */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #bbb; /* ホバー時のボタンの背景色を調整 */
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+}
